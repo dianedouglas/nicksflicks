@@ -5,3 +5,7 @@
 #enter {
     width: 55%
 }
+
+li {
+    list-style-type: none;
+}
