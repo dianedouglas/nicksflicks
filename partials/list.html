@@ -1,3 +1,5 @@
 <li ng-repeat="item in reviews">
-    <a>{{ item.title }}</a>
+    <a ui-sref="reviews.movies({ reviewId: item.id })">{{ item.title }}</a>
 </li>
+
+<div ui-view> </div>

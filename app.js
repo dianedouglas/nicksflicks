@@ -27,4 +27,10 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider) {
         }
     });
 
+    $stateProvider.state('reviews.movies', {
+        url: '/:reviewId',
+        templateUrl: "partials/main.html",
+        controller: "ReviewsCtrl"
+    });
+
 });
